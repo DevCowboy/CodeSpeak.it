@@ -1,5 +1,4 @@
 @import "bootstrap.min.css";
-
 @import url(http://fonts.googleapis.com/css?family=Share+Tech);
 /* Colors */
 /* Charting Colors */
@@ -390,13 +389,13 @@ hr {
   }
 }
 #headerwrap h2.subheading {
-  margin: 40px 0;
+  margin: 20px 0 30px;
   color: white;
   font-weight: 100;
   font-style: italic;
   text-shadow: 1px 1px 1px #000;
   font-size: 20px;
-  line-height: 35px;
+  line-height: 28px;
 }
 #headerwrap .desktopimg .img-responsive {
   max-width: 554px;
@@ -538,9 +537,6 @@ ol {
   width: 100%;
   text-align: center;
 }
-@media (min-width: 600px) {
-  
-}
 /* CHARTS */
 #sparklines canvas {
   width: 100%!important;
@@ -619,7 +615,6 @@ html {
   height: 100%;
   margin: 0 auto -80px;
   /* the bottom margin is the negative value of the footer's height */
-
   padding-top: 0px;
   position: relative;
 }
@@ -632,7 +627,6 @@ html {
 .push {
   height: 60px;
   /* .push must be the same height as .footer */
-
 }
 .twitter-button {
   padding-top: 20px;
