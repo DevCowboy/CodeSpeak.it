@@ -1,4 +1,5 @@
 @import "bootstrap.min.css";
+
 @import url(http://fonts.googleapis.com/css?family=Share+Tech);
 /* Colors */
 /* Charting Colors */
@@ -355,7 +356,7 @@ hr {
 }
 /* HeaderWrap */
 #headerwrap {
-  background: url(../img/bg.png) no-repeat center top;
+  background: url(../img/bg.jpg) no-repeat center top;
   background-color: #3B8686;
   margin-top: 0px;
   padding-top: 100px;
@@ -380,7 +381,8 @@ hr {
   font-size: 36px;
   font-weight: 300;
   letter-spacing: 1px;
-  text-shadow: 0 4px 5px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0 #000;
+  text-transform: uppercase;
 }
 @media (min-width: 400px) {
   #headerwrap h1 {
@@ -388,14 +390,16 @@ hr {
   }
 }
 #headerwrap h2.subheading {
-  margin: 0 0 10px;
-  color: #cecfd3;
-  font-weight: 600;
+  margin: 40px 0;
+  color: white;
+  font-weight: 100;
   font-style: italic;
-  text-shadow: 0 3px 2px rgba(0, 0, 0, 0.7);
+  text-shadow: 1px 1px 1px #000;
+  font-size: 20px;
+  line-height: 35px;
 }
 #headerwrap .desktopimg .img-responsive {
-  max-width: none;
+  max-width: 554px;
   max-height: 400px;
 }
 #headerwrap .mobileimg .img-responsive {
@@ -534,6 +538,9 @@ ol {
   width: 100%;
   text-align: center;
 }
+@media (min-width: 600px) {
+  
+}
 /* CHARTS */
 #sparklines canvas {
   width: 100%!important;
@@ -612,6 +619,7 @@ html {
   height: 100%;
   margin: 0 auto -80px;
   /* the bottom margin is the negative value of the footer's height */
+
   padding-top: 0px;
   position: relative;
 }
@@ -624,4 +632,8 @@ html {
 .push {
   height: 60px;
   /* .push must be the same height as .footer */
+
+}
+.twitter-button {
+  padding-top: 20px;
 }
